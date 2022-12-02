@@ -4,8 +4,8 @@ body{
    box-sizing: border-box;
    font-family: sans-serif;
    background-image: url('image/ccc.png');
-   background-size: contain;
-   background-repeat: repeat;
+   background-size: cover;
+   background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: top;
 }

@@ -9,7 +9,30 @@ body{
    background-attachment: fixed;
    background-position: top;
 }
-.landing {
-   position: relative;
-   top: 50%;
-}
+a.my-button{
+   background: linear-gradient(to right,#75ca19 ,#079628);
+   background-color: #75ca19;
+   color: #e9dfe1;
+   font-family: Verdana;
+   font-size: 21px;
+   font-weight: 800;
+   font-style: normal;
+   text-decoration: none;
+   padding: 23px 40px;
+   border: 2px solid #000;
+   border-radius: 10px;
+   display: inline-block;
+   margin: 0;
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+  }
+  a.my-button:hover{
+   background: linear-gradient(to right,#89d054 ,#51a459);
+   background-color: #89d054;
+  }
+  a.my-button:active{
+   transform: scale(0.95);
+  }

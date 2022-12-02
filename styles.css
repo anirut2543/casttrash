@@ -1,0 +1,10 @@
+body{
+background-image: url('image/cover1.png');
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.landing {
+   position: relative;
+   top: 50%;
+}

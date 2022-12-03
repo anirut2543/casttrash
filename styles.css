@@ -1,13 +1,7 @@
 body{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: sans-serif;
-   background-image: url('image/ccc.png');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: top;
+   height: 100vh;
+   width: 100vw;
+   background: url('image/ccc.png')center/cover no-repeat;
 }
 a.my-button{
    background: linear-gradient(to right,#75ca19 ,#079628);

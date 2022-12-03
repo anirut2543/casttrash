@@ -63,7 +63,7 @@ body{
 }
 
 .popup{
-   width: 800px;
+   width: 600px;
    background: #fff;
    border-radius: 40px;
    border: 2px solid #000;
@@ -91,7 +91,7 @@ body{
 }
 
 .popup h1{
-   font-size: 38px;
+   font-size: 30px;
    font-weight: 500;
    margin: 30px 0 10px;
 }

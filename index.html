@@ -9,13 +9,40 @@
 
 </head>
 <body>
-    <div>
-        <a class="my-button" href="#">Play</a>
+    <div><a class="my-button" href="#">Play</a>
     </div>
-    <div>
-        <a class="my-button2" href="#">rule</a>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Rules</button>
+        <div class="popup" id="popup">
+            <img src="image/ruller5.png" alt="">
+            <h1>Hello</h1>
+            <p>1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                2. Place the remaining ones into the middle of the table, the "Dum-Mee". More tiles can be retrieved only if a sum <br>
+                3. Who goes first can be creative. For example, start with the youngest player in a clockwise direction. <br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
+                1. Mix 110 tiles face down. Pick 15 tiles per player.<br></p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
     </div>
-    
+
+<script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+</script>
     
 </body>
 </html>

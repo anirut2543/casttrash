@@ -59,7 +59,8 @@ body{
    background-position: center;
    width: 600px;
    height: 860px;
-   background-image: url(image/CT.png);
+   background-color: #000; 
+   /*background-image: url(image/CT.png);*/
    background-size: cover;
    margin-top: 30px;
    border-radius: 30px;

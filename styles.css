@@ -54,16 +54,16 @@ body{
    padding: 0;
    box-sizing: border-box;
    font-family: sans-serif;
+   /*background-image: url('image/CCT.png');
+   background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   width: 600px;
-   height: 860px;
    background-position: center;
-   /*background-color: #000; */
-   background-image: url(image/CT.png);
-   background-size: cover;
-   margin-top: 30px;
-   border-radius: 30px;
+   
+   */width: 800px;
+   height: 1160px;
+   margin-top: 80px;
+   border-radius: 40px;
    border: 0;
    position: absolute;
    top: 50%;
@@ -75,15 +75,12 @@ body{
    transition: transform 0.4s, left 0.4s,top 0.4s;
 }
 .ppp img{
-   width: 400px;
-   margin-top: 40px;
-   border-radius: 10px;
+   width: 100%;
 }
-.ppp a{
+.aa{
    background: linear-gradient(to right,#75ca19 ,#079628);
    background-color: #75ca19;
    color: #e9dfe1;
-   margin-top: 650px;
    font-family: Verdana;
    font-size: 25px;
    font-weight: 400;
@@ -93,13 +90,15 @@ body{
    border: 0;
    border-radius: 30px;
    display: inline-block;
+   position: absolute;
+   top: 590px;
+   left: 300px;
 }
 
-.ppp button{
+.bt{
    background: linear-gradient(to right,#75ca19 ,#079628);
    background-color: #75ca19;
    color: #e9dfe1;
-   margin-top: 12px;
    font-family: Verdana;
    font-size: 13px;
    font-weight: 400;
@@ -109,6 +108,9 @@ body{
    border: 0;
    border-radius: 30px;
    display: inline-block;
+   position: absolute;
+   top: 650px;
+   left: 350px;
 }
 .btb{
    background: linear-gradient(to right,#75ca19 ,#079628);

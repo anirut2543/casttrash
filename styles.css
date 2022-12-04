@@ -58,6 +58,7 @@ body{
    background-attachment: fixed;
    width: 600px;
    height: 860px;
+   background-position: center;
    /*background-color: #000; */
    background-image: url(image/CT.png);
    background-size: cover;

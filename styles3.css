@@ -56,3 +56,6 @@
     border-radius: 30px;
     display: inline-block;
  }
+.pic a:active{
+    transform: scale(0.95);
+   }

@@ -1,7 +1,36 @@
+/*body{
+background-image: url('image/cover1.png');
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+}*/
+/*body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   background-image: url('image/ccc.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: top;
+}*/
+
+/*.button {
+   background-image: url('image/butplay.png');
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }*/
 body{
    height: 100vh;
    width: 100vw;
-   background: url('image/ccc.png')center/cover no-repeat;
+   background-color: #b350b2;
    
 }
 .image{
@@ -20,6 +49,66 @@ body{
    justify-content: center;
 }
 
+.ppp {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   width: 600px;
+   height: 800px;
+   background-image: url('image/Cast\ Trash.jpg');
+   background-size: cover;
+   margin-top: 40px;
+   border-radius: 30px;
+   border: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%) scale(1);
+   text-align: center;
+   padding: 0 30px 30px;
+   color: #333;
+   transition: transform 0.4s, left 0.4s,top 0.4s;
+}
+.ppp img{
+   width: 400px;
+   margin-top: 40px;
+   border-radius: 10px;
+}
+.ppp a{
+   background: linear-gradient(to right,#75ca19 ,#079628);
+   background-color: #75ca19;
+   color: #e9dfe1;
+   margin-top: 600px;
+   font-family: Verdana;
+   font-size: 25px;
+   font-weight: 400;
+   font-style: normal;
+   text-decoration: none;
+   padding: 10px 70px;
+   border: 0;
+   border-radius: 30px;
+   display: inline-block;
+}
+
+.ppp button{
+   background: linear-gradient(to right,#75ca19 ,#079628);
+   background-color: #75ca19;
+   color: #e9dfe1;
+   margin-top: 2px;
+   font-family: Verdana;
+   font-size: 13px;
+   font-weight: 400;
+   font-style: normal;
+   text-decoration: none;
+   padding: 10px 70px;
+   border: 0;
+   border-radius: 30px;
+   display: inline-block;
+}
 .btb{
    background: linear-gradient(to right,#75ca19 ,#079628);
    background-color: #75ca19;
@@ -54,16 +143,15 @@ body{
    font-weight: 800;
    font-style: normal;
    text-decoration: none;
-   padding: 15px 80px;
+   padding: 20px 110px;
    border: 0;
    border-radius: 10px;
    display: inline-block;
    margin: 0;
    position: absolute;
-   top: 90%;
+   top: 87%;
    left: 50%;
 }
-
 .btn:hover{
    background: linear-gradient(to right,#89d054 ,#51a459);
    background-color: #89d054;
@@ -74,7 +162,7 @@ body{
 
 .popup{
    background-attachment: fixed;
-   width: 800px;
+   width: 500px;
    background: #fff;
    border-radius: 40px;
    border: 2px solid #000;
@@ -107,12 +195,12 @@ body{
 }
 
 .popup h1{
-   font-size: 38px;
+   font-size: 30px;
    font-weight: 500;
    margin: 30px 0 10px;
 }
 .popup p{
-   font-size: 22px;
+   font-size: 20px;
 }
 .popup button{
    width: 100%;
@@ -128,3 +216,5 @@ body{
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
+
+

@@ -54,7 +54,7 @@ body{
    font-weight: 800;
    font-style: normal;
    text-decoration: none;
-   padding: 20px 110px;
+   padding: 15px 800px;
    border: 0;
    border-radius: 10px;
    display: inline-block;
@@ -62,6 +62,11 @@ body{
    position: absolute;
    top: 87%;
    left: 50%;
+}
+
+.btn:hover{
+   background: linear-gradient(to right,#89d054 ,#51a459);
+   background-color: #89d054;
 }
 .btn:active{
    transform: scale(0.95);

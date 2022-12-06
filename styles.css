@@ -94,6 +94,13 @@ body{
    top: 590px;
    left: 300px;
 }
+.aa:hover{
+   background: linear-gradient(to right,#89d054 ,#51a459);
+   background-color: #89d054;
+}
+.aa:active{
+   transform: scale(0.95);
+  }
 
 .bt{
    background: linear-gradient(to right,#75ca19 ,#079628);
@@ -112,56 +119,14 @@ body{
    top: 650px;
    left: 350px;
 }
-.btb{
-   background: linear-gradient(to right,#75ca19 ,#079628);
-   background-color: #75ca19;
-   color: #e9dfe1;
-   font-family: Verdana;
-   font-size: 21px;
-   font-weight: 800;
-   font-style: normal;
-   text-decoration: none;
-   padding: 20px 120px;
-   border: 0;
-   border-radius: 10px;
-   display: inline-block;
-   margin: 0;
-   position: absolute;
-   top: 80%;
-   left: 50%;
-}
-.btb:hover{
+.bt:hover{
    background: linear-gradient(to right,#89d054 ,#51a459);
    background-color: #89d054;
 }
-.btb:active{
+.bt:active{
    transform: scale(0.95);
   }
-.btn{
-   background: linear-gradient(to right,#75ca19 ,#079628);
-   background-color: #75ca19;
-   color: #e9dfe1;
-   font-family: Verdana;
-   font-size: 18px;
-   font-weight: 800;
-   font-style: normal;
-   text-decoration: none;
-   padding: 20px 110px;
-   border: 0;
-   border-radius: 10px;
-   display: inline-block;
-   margin: 0;
-   position: absolute;
-   top: 87%;
-   left: 50%;
-}
-.btn:hover{
-   background: linear-gradient(to right,#89d054 ,#51a459);
-   background-color: #89d054;
-}
-.btn:active{
-   transform: scale(0.95);
-  }
+
 
 .popup{
    background-attachment: fixed;
@@ -186,11 +151,6 @@ body{
    transform: translate(-50%,-50%) scale(1);
 }
 
-.close-popup{
-   visibility: hidden;
-   top: 100%;
-   transform: translate(-50%,-50%) scale(0.1);
-}
 .popup img{
    width: 400px;
    margin-top: -100px;

@@ -4,14 +4,7 @@ var progress = document.querySelector('.progress');
 var count = 4;
 var per = 16;
 var loading = setInterval(animate, 50);
-let popup = document.getElementById("popup");
 
-    function openPopup(){
-        popup.classList.add("open-popup");
-    }
-    function closePopup(){
-        popup.classList.remove("open-popup");
-    }
 
 function animate(){
   if(count == 100 && per == 400){
@@ -29,3 +22,24 @@ function animate(){
     percent.textContent = count + '%';
   }
 }
+let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+let pic = document.getElementById("pic");
+
+    function closePic(){
+        pic.classList.add("close-pic");
+    }
+
+    let dic = document.getElementById("dic");
+
+    function toy(){
+      document.getElementById("output").innerHTML =
+      Math.floor(Math.random() * 6) + 1;
+    }
+

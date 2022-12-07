@@ -1,6 +1,6 @@
 /*body{
 background-image: url('image/cover1.png');
-background-position: center;
+background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
 }*/
@@ -28,16 +28,9 @@ background-repeat: no-repeat;
    cursor: pointer;
  }*/
 body{
-   
-   margin: 0;
-   padding: 0;
-   background-image: url(image/CCT.png);
-   background-position: cover;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   box-sizing: border-box;
-   font-family: sans-serif;
-   background-position: top;
+   height: 100vh;
+   width: 100vw;
+   background-color: #b350b2;
    
 }
 .image{
@@ -67,9 +60,8 @@ body{
    background-attachment: fixed;
    background-position: center;
    
-   */
-   width: 1000px;
-   height: 1360px;
+   */width: 800px;
+   height: 1160px;
    margin-top: 80px;
    border-radius: 40px;
    border: 0;

@@ -12,18 +12,20 @@
         <div class="space">
             <img src="image/map.png" alt="" class="map">
             <img src="image/ruller5.png" alt="" class="logo">
-            <button type="submit" class="bt2" onclick="">QUIZ!!</button>
-            <button type="submit" class="bt3" href="youtube.com">ADS</button>
-            <div >
-                <button type="submit" class="bt" onclick="openPopup()">Rules</button>
-            </div>
+            <button type="submit" class="bt2" onclick="openQuiz()">QUIZ!!</button>
+            <button type="submit" class="bt3" onclick="openAds()">ADS</button>
+            <button type="submit" class="bt" onclick="openPopup()">Rules</button>
+            <!--<button type="button" class="bt2" onclick = getRandomImage()> Generate Image </button>-->
+            <div class="map"><span id="result" align="center"> </span></div>
             <div class="dice">
                 <span id="output" class="ss">3</span>
-                <button type="submit" class="bt4" id="dic" onclick="toy()">Roll</button>
+                <button type="submit" class="bt4" id="dic" onclick="toy()">Toy</button>
             </div>
-            <button type="submit" class="bt5" >HELP</button>
+            <button type="submit" class="bt5" onclick="openHelp()">HELP</button>
         </div>
-        <div class="popup" id="popup">
+        <div >
+                
+            <div class="popup" id="popup">
                 <img src="image/ruller5.png" alt="">
                 <h1>Hello</h1>
                 <p>1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
@@ -40,6 +42,24 @@
                     1. Mix 110 tiles face down. Pick 15 tiles per player.<br>
                     1. Mix 110 tiles face down. Pick 15 tiles per player.<br></p>
                 <button type="button" onclick="closePopup()">OK</button>
+            </div>
+            <div class="hel" id="hel">
+                <h1>Help</h1>
+                <p>1. HelpHelp.<br>
+                    2. HelpHelp. <br>
+                    3. HelpHelp. <br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                    1. HelpHelp.<br>
+                   </p>
+                <button type="button" onclick="closeHelp()">OK</button>
+            </div>
             </div>
     </div>
     <script src="script.js"></script>

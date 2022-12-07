@@ -243,3 +243,55 @@
 	text-align: center;
 	font-size: 150px;
 }
+
+.hel{
+   background-attachment: fixed;
+   width: 500px;
+   background: #fff;
+   border-radius: 40px;
+   border: 2px solid #000;
+   position: absolute;
+   top: 100%;
+   transform: translate(-50%,-50%) scale(0.1);
+   text-align: center;
+   padding: 0 30px 30px;
+   color: #333;
+   visibility: hidden;
+   transition: transform 0.4s, left 0.4s,top 0.4s;
+}
+
+.open-hel{
+   visibility: visible;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%) scale(1);
+}
+
+.hel img{
+   width: 400px;
+   margin-top: -100px;
+   border-bottom: 5%;
+}
+
+.hel h1{
+   font-size: 30px;
+   font-weight: 500;
+   margin: 30px 0 10px;
+}
+.hel p{
+   font-size: 20px;
+}
+.hel button{
+   width: 100%;
+   margin-top: 50px;
+   padding: 10px 0;
+   background: #6fd649;
+   color: #fff;
+   border: 0;
+   outline: none;
+   font-size: 18px;
+   border-radius: 4px;
+   cursor: pointer;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}

@@ -71,3 +71,12 @@ let pic = document.getElementById("pic");
       function closeHelp(){
           hel.classList.remove("open-hel");
       }
+
+      let qui = document.getElementById("qui");
+
+      function openQuiz(){
+          qui.classList.add("open-qui");
+      }
+      function closeQuiz(){
+          qui.classList.remove("open-qui");
+      }
